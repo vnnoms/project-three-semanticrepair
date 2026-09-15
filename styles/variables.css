@@ -1,0 +1,24 @@
+:root {
+  --color-blue: #C4DAE8;
+  --color-butter: #FEEFB8;
+  --color-chocopie: #432F2E;
+
+  --bg-page: var(--color-blue);
+  --bg-header: var(--color-butter);
+  --accents: var(--color-chocopie);
+
+   --font-family-base: "Alata", sans-serif;
+  --font-size-badge: 12px;
+  --font-size-body: 15px;
+  --font-size-title: 22px;
+  --font-size-price: 28px;
+  --font-size-heading: 32px;
+  --font-weight-regular: 400;
+  --font-weight-bold: 700;
+
+  --card-radius: 12px;
+  --badge-radius: 999px;
+  --btn-radius: 8px;
+  --grid-gap: 24px;
+}
+
