@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="id">
     <head>
-        <meta charset ="utf-8">
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,35 +11,43 @@
         <title>Profil Mahasiswa</title>
     </head>
     <body>
-        <div id="canvas" class="canvas"> 
-            <nav class="navbar" id="navbar">
+        <nav class="navbar">
+            <div class="container navbar-content">
                 <h1>Profil Mahasiswa</h1>
                 <ul class="nav-links">
-                    <li><a href="index.html#tentang">Tentang</a></li>
-                    <li><a href="index.html#keterampilan">Keterampilan</a></li>
-                    <li><a href="index.html#kontak">Kontak</a></li>
+                    <li><a class="nav-link" href="#tentang">Tentang</a></li>
+                    <li><a class="nav-link" href="#keterampilan">Keterampilan</a></li>
+                    <li><a class="nav-link" href="#kontak">Kontak</a></li>
                 </ul>
-            </nav>
-        </div>
-        <section id="tentang">
-                <h2> Tentang Saya</h2>
-                <img src="assets/profile.jpg" alt="Mahasiswa D3 Teknik Informatika">
-                <p> Saya mahasiswa D3 Teknik Informatika yang sedang belajar web.</p>
-        </section>
-        <section id="keterampilan">
-            <h3> Keterampilan</h3>
-            <ul>
-                <li>HTML</li>
-                <li>CSS</li>
-                <li>Problem Solving</li>
-            </ul>
-        </section>
-        <section id="kontak">
-            <h4> Kontak</h4>
-            <a href="mailto:mahasiswa@example.com">Kirim Email</a>
-        </section>
+            </div>
+        </nav>
+
+        <main class="container">
+            <section id="tentang" class="card">
+                <h2>Tentang Saya</h2>
+                <img class="profile-img" src="assets/profile.jpg" alt="Mahasiswa D3 Teknik Informatika">
+                <p>Saya mahasiswa D3 Teknik Informatika yang sedang belajar web.</p>
+            </section>
+
+            <section id="keterampilan" class="card">
+                <h2>Keterampilan</h2>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Problem Solving</li>
+                </ul>
+            </section>
+
+            <section id="kontak" class="card">
+                <h2>Kontak</h2>
+                <a class="button" href="mailto:mahasiswa@example.com">Kirim Email</a>
+            </section>
+        </main>
+
         <footer>
-            <p> Hak Cipta &copy; 2024 Mahasiswa D3 Teknik Informatika</p>
+            <div class="container">
+                <p>Hak Cipta &copy; 2026 Mahasiswa D3 Teknik Informatika</p>
+            </div>
         </footer>
     </body>
 </html>
